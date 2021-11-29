@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #262626;
+    display: flex;
+}
+#MapBox{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+#MapBox iframe{
+    width: 100%;
+    height: 100%;
+}
